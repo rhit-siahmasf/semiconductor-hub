@@ -43,14 +43,15 @@ semi.main = function () {
 semi.startFirebaseStorage = function () {
     // Initialize Firebase
     const firebaseConfig = {
-        apiKey: "AIzaSyBokIKE2PrknSV64p-jChLFL9fd009nLfI",
-        authDomain: "semiconductor-hub.firebaseapp.com",
-        projectId: "semiconductor-hub",
-        storageBucket: "semiconductor-hub.appspot.com",
-        messagingSenderId: "464569721118",
-        appId: "1:464569721118:web:ee578eaff377245121290f",
-        measurementId: "G-QZ71JRQBR5"
-    };
+        apiKey: "AIzaSyAqZXnFu72l1qnme9N7TnmbMsZKlbZxLtY",
+        authDomain: "semiconductor-hub-ce0cd.firebaseapp.com",
+        databaseURL: "https://semiconductor-hub-ce0cd-default-rtdb.firebaseio.com",
+        projectId: "semiconductor-hub-ce0cd",
+        storageBucket: "semiconductor-hub-ce0cd.appspot.com",
+        messagingSenderId: "633395400763",
+        appId: "1:633395400763:web:33e21995843d3b21fdcc1e",
+        measurementId: "G-JGFZPNLNJV"
+      };
     console.log("Started firebase storage");
     firebase.analytics();
 }
