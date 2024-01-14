@@ -6,9 +6,7 @@ semi.main = function () {
     firebase.auth().onAuthStateChanged((user) => {
         if (user) {
             var uid = user.uid;
-            // ...
         } else {
-            //...
         }
     });
 
@@ -16,7 +14,7 @@ semi.main = function () {
 
         const inputEmail = document.querySelector("#emailInput");
         const inputPassword = document.querySelector("#passwordInput");
-        firebase.auth().createUserWithEmailAndPassword(emailInput.value, passwordInput.value)
+        firebase.auth().createUserWithEmailAndPassword(inputEmail.value, inputPassword.value)
             .then((userCredential) => {
                 var user = userCredential.user;
             })
@@ -40,6 +38,7 @@ semi.main = function () {
     // }
 
 }
+
 semi.startFirebaseStorage = function () {
     // Initialize Firebase
     const firebaseConfig = {
@@ -51,7 +50,7 @@ semi.startFirebaseStorage = function () {
         messagingSenderId: "633395400763",
         appId: "1:633395400763:web:33e21995843d3b21fdcc1e",
         measurementId: "G-JGFZPNLNJV"
-      };
+    };
     console.log("Started firebase storage");
     firebase.analytics();
 }

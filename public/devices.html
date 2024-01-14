@@ -18,17 +18,18 @@
             <div class="navbar-header">
                 <a id="webhome" class="navbar-brand" href="#">Semiconductor Hub</a>
             </div>
-            <button id="semiconductors" type="button" class="btn btn-default navbar-btn">Semiconductor Materials</button>
-            <button id="diodes" type="button" class="btn btn-default navbar-btn">Fabrication</button>
-            <button id="wafers" type="button" class="btn btn-default navbar-btn">Semiconductor Devices</button>
-            <button id="others" type="button" class="btn btn-default navbar-btn">Device Testing & Characterization</button>
+            <button id="materials" type="button" class="btn btn-default navbar-btn">Semiconductor Materials</button>
+            <button id="fabrication" type="button" class="btn btn-default navbar-btn">Fabrication</button>
+            <button id="devices" type="button" class="btn btn-default navbar-btn">Semiconductor Devices</button>
+            <button id="dtc" type="button" class="btn btn-default navbar-btn">Device Testing & Characterization</button>
             <button id="login" type="button" class="btn btn-dark navbar-btn">Login</button>
         </div>
     </nav>
     <div class="jumbotron">
         <h1>Semiconductor Devices</h1>
+        <p> add text of your like here. Also can add images and other items.</p>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mb-4">
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
@@ -64,21 +65,42 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <!-- Add template blocks in columns -->
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Subtitle</h6>
+                      <p class="card-text">Cards content</p>
+                      <a href="#" class="card-link">Card link</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Subtitle</h6>
+                      <p class="card-text">Cards content</p>
+                      <a href="#" class="card-link">Card link</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/popper.js"></script>
 <script src="scripts/bootstrap-material-design.js"></script>
 <script>$("body").bootstrapMaterialDesign();</script>
-<script src="scripts/homepage.js"></script>
+<script src="/__/firebase/7.18.0/firebase-app.js"></script>
+<script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+<script src="/__/firebase/7.18.0/firebase-auth.js"></script>
+<script src="/__/firebase/7.18.0/firebase-firestore.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/login.js"></script>
 </body>

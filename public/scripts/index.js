@@ -1,12 +1,13 @@
-document.getElementById("semiconductors").addEventListener("click", MaterialsPage);
-document.getElementById("diodes").addEventListener("click", FabricationPage);
-document.getElementById("wafers").addEventListener("click", DevicesPage);
-document.getElementById("others").addEventListener("click", DTCPage);
+document.getElementById("materials").addEventListener("click", MaterialsPage);
+document.getElementById("fabrication").addEventListener("click", FabricationPage);
+document.getElementById("devices").addEventListener("click", DevicesPage);
+document.getElementById("dtc").addEventListener("click", DTCPage);
 document.getElementById("login").addEventListener("click", LoginPage);
 document.getElementById("webhome").addEventListener("click", HomePage);
 
+
 function HomePage() {
-    window.location.href="homepage.html"
+    window.location.href="index.html"
 }
 
 function MaterialsPage() {
